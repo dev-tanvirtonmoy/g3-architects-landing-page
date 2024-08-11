@@ -1,0 +1,18 @@
+/* Small Device */
+@media screen and (max-width: 576px) {
+
+    .nav-con {
+        flex-direction: column;
+    }
+    .nav-con .logo{
+        width: 100%;
+        text-align: center;
+    }
+    .nav-con .nav-link {
+        width: 100%;
+    }
+    .nav-con .nav-link ul {
+        flex-direction: column;
+        gap: 100px;
+    }
+}
