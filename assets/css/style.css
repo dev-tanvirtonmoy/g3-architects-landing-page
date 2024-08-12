@@ -25,7 +25,17 @@ img {
     max-width: 1440px;
     margin: auto;
 }
-
+/* Shared CSS */
+.btn-primary {
+    padding: 1.25rem 1.563rem;
+    background: #FF900E;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
 /* Nav part CSS start from here */
 header {
     background-color: rgba(255, 144, 14, 0.10);
@@ -75,20 +85,33 @@ header {
     line-height: 1.625rem;
     margin: 2rem 0;
 }
-#banner .banner-content .btn-primary {
-    padding: 1.25rem 1.563rem;
-    background: #FF900E;
-    color: #FFF;
-    font-size: 1.25rem;
-    font-weight: 600;
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
-}
 .banner-img {
     max-height: 700px;
+    border-radius: 0.5rem;
 }
 .banner-img img{
     object-fit: cover;
 }
 /* Banner part CSS end here */
+
+/* Team part CSS start from here */
+.team {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+}
+.team-img-container {
+    grid-column: 1/span 6;
+}
+.team-con-container {
+    grid-column: 7/span 6;
+}
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.team-img-container img {
+    border-radius: 0.5rem;
+}
+/* Team part CSS end here */
