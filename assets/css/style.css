@@ -17,7 +17,7 @@ ul,ol,li {
 }
 img {
     vertical-align: middle;
-    width: 100%;
+    /* width: 100%; */
     /* height: 100%; */
 }
 .container {
@@ -35,6 +35,17 @@ img {
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
+}
+.section-title {
+    color: #131313;
+    font-size: 2.813rem;
+    font-weight: 700;
+}
+p {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
 }
 /* Nav part CSS start from here */
 header {
@@ -78,7 +89,7 @@ header {
     font-size: 4rem;
     font-weight: 700;
 }
-#banner .banner-content p {
+#banner .banner-content>p {
     color: #727272;
     font-size: 1rem;
     font-weight: 400;
@@ -91,6 +102,8 @@ header {
 }
 .banner-img img{
     object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 /* Banner part CSS end here */
 
@@ -118,6 +131,9 @@ header {
 }
 .team-img-container img {
     border-radius: 0.5rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .team-con-container h3 {
     font-size: 2.813rem;
@@ -143,3 +159,41 @@ header {
     margin: 1.5rem 0;
 }
 /* Team part CSS end here */
+/* Feature part CSS start from here */
+/* Feature part CSS end here */
+/* Facts part CSS start from here */
+.facts .facts-section-head {
+    max-width: 542px;
+    margin-bottom: 2.5rem;
+}
+.facts .facts-section-head h3 {
+    margin-bottom: 1.25rem;
+}
+.facts .facts-card-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.facts-card-container .card img {
+    width: 45px;
+    height: 45px;
+}
+.facts-card-container .card {
+    border-radius: 0.5rem;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+.facts-card-container .card .card-stats {
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 1.25rem 0 6px;
+}
+.facts-card-container .card .card-title {
+    color: #424242;
+    font-size: 1.26rem;
+    font-weight: 600;
+}
+/* Facts part CSS end here */

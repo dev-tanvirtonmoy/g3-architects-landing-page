@@ -30,8 +30,25 @@
         padding: 0;
         text-align: center;
     }
+    .facts .facts-card-container {
+        flex-direction: column;
+    }
+    .facts .facts-card-container .card{
+        width: 100%;
+    }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
+    .nav-con {
+        flex-direction: column;
+    }
+    .nav-con .logo{
+        width: 100%;
+        text-align: center;
+    }
+    .nav-con .nav-link {
+        width: 100%;
+    }
+
     .team {
         flex-direction: column;
     }
