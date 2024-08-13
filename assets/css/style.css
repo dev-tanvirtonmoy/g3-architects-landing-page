@@ -96,22 +96,50 @@ header {
 
 /* Team part CSS start from here */
 .team {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4.75rem;
+    padding: 8rem 0;
 }
 .team-img-container {
-    grid-column: 1/span 6;
+    width: 50%;
+    padding: 0 0 0 6.75rem;
 }
 .team-con-container {
-    grid-column: 7/span 6;
+    width: 50%;
+    padding: 0 6.75rem 0 0;
 }
 .team-img-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2 ,1fr);
     gap: 1.5rem;
 }
 .team-img-container img {
     border-radius: 0.5rem;
+}
+.team-con-container h3 {
+    font-size: 2.813rem;
+    font-weight: 700;
+}
+.team-con-container .quick-list {
+    color: #727272;
+    font-weight: 500;
+}
+.team-con-container .of-our {
+    color: #131313;
+}
+.team-con-container .features {
+    color: #FF900E;
+}
+.team-con-container p {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+.team-con-container .team-text {
+    margin: 1.5rem 0;
 }
 /* Team part CSS end here */

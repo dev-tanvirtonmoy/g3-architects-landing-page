@@ -1,6 +1,6 @@
 /* Small Device */
 @media screen and (max-width: 576px) {
-
+/* Navbar part responsive here */
     .nav-con {
         flex-direction: column;
     }
@@ -14,5 +14,34 @@
     .nav-con .nav-link ul {
         flex-direction: column;
         gap: 100px;
+    }
+    /* Team part responsive here */
+    .team {
+        flex-direction: column-reverse;
+        gap: 0rem;
+    }
+    .team .team-img-container {
+        width: 100%;
+        padding: 0;
+        grid-template-columns: 1fr;
+    }
+    .team .team-con-container {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .team {
+        flex-direction: column;
+    }
+    .team .team-img-container {
+        width: 100%;
+        padding: 0;
+    }
+    .team .team-con-container {
+        width: 100%;
+        padding: 0;
+        text-align: center;
     }
 }
