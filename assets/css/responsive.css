@@ -36,6 +36,10 @@
     .facts .facts-card-container .card{
         width: 100%;
     }
+
+    .sponser-img-container {
+        flex-direction: column;
+    }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .nav-con {
@@ -45,8 +49,10 @@
         width: 100%;
         text-align: center;
     }
-    .nav-con .nav-link {
+    .nav-con .nav-link ul{
         width: 100%;
+        justify-content: center;
+        gap: 1,25rem;
     }
 
     .team {
@@ -60,5 +66,9 @@
         width: 100%;
         padding: 0;
         text-align: center;
+    }
+
+    .sponser-img-container {
+        flex-direction: column;
     }
 }
