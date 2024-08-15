@@ -219,3 +219,19 @@ header {
     width: 165px;
 }
 /* Sponsers part CSS end here */
+/* Footer part CSS start from here */
+footer {
+    margin: 100px 0;
+}
+footer>.container {
+    background-color: #FFF4E7;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 2.5rem 0;
+}
+footer .copyright {
+    color: #424242;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+/* Footer part CSS end here */
