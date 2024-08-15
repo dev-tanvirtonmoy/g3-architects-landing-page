@@ -17,9 +17,6 @@ ul,ol,li {
 }
 img {
     vertical-align: middle;
-    /* width: 100%; */
-    /* height: 100%; */
-    /* display: block; */
 }
 .container {
     width: 90%;
@@ -201,6 +198,9 @@ header {
 }
 /* Facts part CSS end here */
 /* Sponsers part CSS start from here */
+.sponser {
+    padding: 50px;
+}
 .sponser .sponser-con-head {
     max-width: 542px;
     margin: 0 auto;
@@ -217,7 +217,5 @@ header {
 }
 .sponser-img-container img{
     width: 165px;
-    /* aspect-ratio: 3/2;
-    object-fit: contain; */
 }
 /* Sponsers part CSS end here */
