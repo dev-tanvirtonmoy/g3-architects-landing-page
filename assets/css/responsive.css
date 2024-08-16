@@ -30,6 +30,20 @@
         padding: 0;
         text-align: center;
     }
+
+    .feature .feature-container {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .feature .feature-card-container, 
+    .feature .feature-img-container {
+        width: 100%;
+    }
+    .feature .feature-img-container .experience {
+        position: static;
+        width: 100%;
+    }
+
     .facts .facts-card-container {
         flex-direction: column;
     }
@@ -66,6 +80,19 @@
         width: 100%;
         padding: 0;
         text-align: center;
+    }
+
+    .feature .feature-container {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .feature .feature-card-container, 
+    .feature .feature-img-container {
+        width: 100%;
+    }
+    .feature .feature-img-container .experience {
+        position: static;
+        width: 100%;
     }
 
     .sponser-img-container {
