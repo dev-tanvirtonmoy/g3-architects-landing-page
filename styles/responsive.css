@@ -1,3 +1,15 @@
 /* ---------------- Responsive styles for small device (Mobile view) start from here ---------------- */
+@media screen and (max-width: 576px) {
+    
+/* ---------------- Navbar responsive styles start from here ---------------- */
+    nav {
+        flex-direction: column;
+    }
+    nav > .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+/* ---------------- Navbar responsive styles end here ---------------- */
 
+}
 /* ---------------- Responsive styles for small device (Mobile view) end here ---------------- */

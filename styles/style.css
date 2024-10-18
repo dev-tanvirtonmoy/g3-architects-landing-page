@@ -25,7 +25,7 @@ li {
     list-style: none;
 }
 .container {
-    width: 75%;
+    width: 90%;
     max-width: 1440px;
     margin-inline: auto;
     border: 1px solid black;
@@ -33,5 +33,44 @@ li {
 /* ---------------- Common styles for website end here ---------------- */
 
 /* ---------------- Shared styles start from here ---------------- */
-
+.btn-primary {
+    padding: 20px 26px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+}
 /* ---------------- Shared styles end here ---------------- */
+
+/* ---------------- Header styles start from here ---------------- */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 40px 0;
+}
+/* ---------------- Header styles end here ---------------- */
+
+/* ---------------- Naavbar styles start from here ---------------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > .logo {
+    color: #131313;
+    font-size: 2.813rem;
+    font-weight: 700;
+}
+nav > .nav-links {
+    display: flex;
+    gap: 78px;
+}
+nav > .nav-links > li a{
+    color: #424242;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+/* ---------------- Naavbar styles end here ---------------- */
