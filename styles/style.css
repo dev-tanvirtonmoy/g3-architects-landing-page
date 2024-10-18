@@ -15,6 +15,11 @@ html {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+img {
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+}
 a,
 a:hover {
     text-decoration: none;
@@ -28,7 +33,6 @@ li {
     width: 90%;
     max-width: 1440px;
     margin-inline: auto;
-    border: 1px solid black;
 }
 /* ---------------- Common styles for website end here ---------------- */
 
@@ -42,6 +46,12 @@ li {
     background: #FF900E;
     border: none;
 }
+p {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
 /* ---------------- Shared styles end here ---------------- */
 
 /* ---------------- Header styles start from here ---------------- */
@@ -49,7 +59,6 @@ header {
     background: rgba(255, 144, 14, 0.10);
     padding: 40px 0;
 }
-/* ---------------- Header styles end here ---------------- */
 
 /* ---------------- Naavbar styles start from here ---------------- */
 nav {
@@ -74,3 +83,27 @@ nav > .nav-links > li a{
     text-transform: capitalize;
 }
 /* ---------------- Naavbar styles end here ---------------- */
+
+/* ---------------- Hero section CSS start from here ---------------- */
+.banner {
+    text-align: center;
+}
+.banner > .banner-title {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.banner > p {
+    max-width: 868px;
+    margin: 32px auto;
+}
+.banner > button {
+    margin-bottom: 50px;
+}
+.banner > .banner-img {
+    max-height: 700px;
+}
+/* ---------------- Hero section CSS end here ---------------- */
+/* ---------------- Header styles end here ---------------- */
+
