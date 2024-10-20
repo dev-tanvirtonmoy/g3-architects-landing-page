@@ -6,9 +6,21 @@
         flex-direction: column;
     }
     nav > .nav-links {
+        gap: 20px;
         flex-direction: column;
         text-align: center;
     }
 /* ---------------- Navbar responsive styles end here ---------------- */
+
+/* ---------------- Team section responsive styles start from here ---------------- */
+#team {
+    flex-direction: column;
+}
+main #team > .team-img-container-style {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+    width: 100%;
+}
+/* ---------------- Team section responsive styles end here ---------------- */
 }
 /* ---------------- Responsive styles for small device (Mobile view) end here ---------------- */

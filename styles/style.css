@@ -40,11 +40,13 @@ li {
 .btn-primary {
     padding: 20px 26px;
     color: #FFF;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 600;
     border-radius: 8px;
     background: #FF900E;
+    text-transform: capitalize;
     border: none;
+    cursor: pointer;
 }
 p {
     color: #727272;
@@ -68,7 +70,7 @@ nav {
 }
 nav > .logo {
     color: #131313;
-    font-size: 2.813rem;
+    font-size: 1.75rem;
     font-weight: 700;
 }
 nav > .nav-links {
@@ -77,7 +79,7 @@ nav > .nav-links {
 }
 nav > .nav-links > li a{
     color: #424242;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 26px;
     text-transform: capitalize;
@@ -90,7 +92,7 @@ nav > .nav-links > li a{
 }
 .banner > .banner-title {
     color: #131313;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
     margin-top: 100px;
 }
@@ -107,3 +109,42 @@ nav > .nav-links > li a{
 /* ---------------- Hero section CSS end here ---------------- */
 /* ---------------- Header styles end here ---------------- */
 
+/* ---------------- Team section styles start from here ---------------- */
+#team {
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+#team > .team-img-container-style {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    flex: 1;
+    margin-left: 60px;
+}
+#team > .team-img-container-style .tem-img{
+    max-height: 342px;
+}
+#team .team-content {
+    flex: 1;
+}
+
+#team > .team-content h3 {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#team > .team-content span:first-child {
+    color: #727272;
+    font-weight: 500;
+}
+#team > .team-content span:last-child {
+    color: #131313;
+    font-weight: 500;
+}
+#team > .team-content > p {
+    margin: 24px 0 32px;
+}
+/* ---------------- Team section styles end here ---------------- */
