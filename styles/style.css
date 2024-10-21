@@ -157,11 +157,9 @@ nav > .nav-links > li a{
     gap: 100px;
 }
 #feature .feature-content {
-    /* width: 50%; */
     flex: 1;
 }
 #feature .feature-img {
-    /* width: 50%; */
     flex: 1;
     max-height: 982px;
     position: relative;
@@ -225,3 +223,48 @@ nav > .nav-links > li a{
     line-height: 40px;
 }
 /* ---------------- Feature section styles end here ---------------- */
+
+/* ---------------- Facts section styles start from here ---------------- */
+#fact {
+    margin: 120px 0;
+}
+#fact h3 {
+    color: var(--Dark-01, #131313);
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+#fact p {
+    width: 542px;
+    margin-bottom: 30px;
+}
+.badge-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.badge-container .badge {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 40px 0;
+}
+.badge-container .badge div{
+    width: 45px;
+}
+.badge-container .badge h4{
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 10px 0 5px;
+}
+.badge-container .badge > span{
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* ---------------- Facts section styles end here ---------------- */

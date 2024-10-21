@@ -41,5 +41,14 @@ main .feature-img .img-tag span:last-child {
     line-height: 26px;
 }
 /* ---------------- Feature section responsive styles end here ---------------- */
+/* ---------------- Facts section responsive styles start from here ---------------- */
+main .badge-container {
+    flex-direction: column;
+}
+main #fact p {
+    width: 100%;
+}
+/* ---------------- Facts section responsive styles end here ---------------- */
+
 }
 /* ---------------- Responsive styles for small device (Mobile view) end here ---------------- */
