@@ -22,5 +22,24 @@ main #team > .team-img-container-style {
     width: 100%;
 }
 /* ---------------- Team section responsive styles end here ---------------- */
+/* ---------------- Feature section responsive styles start from here ---------------- */
+main #feature {
+    flex-direction: column-reverse;
+    gap: 80px;
+}
+main .feature-img > .img-tag {
+    padding: 20px;
+    bottom: -50px;
+    left: -10px;
+}
+main .feature-img .img-tag span:first-child {
+    font-size: 40px;
+    line-height: 60px;
+}
+main .feature-img .img-tag span:last-child {
+    font-size: 16px;
+    line-height: 26px;
+}
+/* ---------------- Feature section responsive styles end here ---------------- */
 }
 /* ---------------- Responsive styles for small device (Mobile view) end here ---------------- */
